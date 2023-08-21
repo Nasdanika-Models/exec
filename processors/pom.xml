@@ -13,7 +13,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.nasdanika.core</groupId>
-			<artifactId>ncore</artifactId>
+			<artifactId>exec</artifactId>
 			<version>${core.version}</version>
 		</dependency>		
 		<dependency>
