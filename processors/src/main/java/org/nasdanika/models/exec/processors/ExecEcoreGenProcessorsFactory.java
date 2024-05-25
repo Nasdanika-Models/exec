@@ -1,11 +1,11 @@
 package org.nasdanika.models.exec.processors;
 
 import org.nasdanika.common.Context;
+import org.nasdanika.exec.ExecPackage;
 import org.nasdanika.models.ecore.graph.processors.EPackageNodeProcessorFactory;
-import org.nasdanika.ncore.NcorePackage;
 
-@EPackageNodeProcessorFactory(nsURI = NcorePackage.eNS_URI)
-public class EcoreGenExecProcessorsFactory {
+@EPackageNodeProcessorFactory(nsURI = ExecPackage.eNS_URI)
+public class ExecEcoreGenProcessorsFactory {
 
 	private Context context;
 	
@@ -13,7 +13,7 @@ public class EcoreGenExecProcessorsFactory {
 //	public final AccessLevelProcessorsFactory accessLevelFactory;
 
 	
-	public EcoreGenExecProcessorsFactory(Context context) {
+	public ExecEcoreGenProcessorsFactory(Context context) {
 //		accessLevelProcessorsFactory = new AccessLevelProcessorsFactory(context);
 	}
 	

@@ -1,0 +1,1 @@
+Content classes are adapted to ${javadoc/org.nasdanika.common.SupplierFactory}<java.io.InputStream> to supply content for files, HTTP Call bodies etc. in a form of input streams.
