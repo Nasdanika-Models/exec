@@ -1,572 +1,572 @@
 {
   "references/eClassifiers/Call/references/eStructuralFeatures/property/index.html": {
     "path": "Call/Attributes/property",
-    "link-uuid": "d82b0f4c-683c-4ac2-ab20-33f1c47ee68b",
+    "link-uuid": "67bacfa8-8ebd-4ba8-9fb7-31765e57c0f0",
     "title": "property",
     "content": "Type EString Multiplicity 0..1 Context property name. Mutually exclusive with class and service. One of class, property, or service is required.",
-    "timestamp": 1747875415122
+    "timestamp": 1749931240691
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/references/eOperations/getFile-1/references/eParameters/path/index.html": {
     "path": "resources/Container/Operations/getFile/Parameters/path",
-    "link-uuid": "cdc54878-68ad-4776-9225-da3e78befe82",
+    "link-uuid": "cc920197-2f2e-4792-b40d-7293373a0568",
     "title": "path",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1747875415460
+    "timestamp": 1749931241137
   },
   "references/eClassifiers/Call/inheritance.html": {
     "path": "Call/Inheritance",
-    "link-uuid": "72d74ec3-ba71-4d8f-a407-30659a327058",
+    "link-uuid": "1a34a9e2-5c13-4e5b-87b8-6a48ee4c6e04",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415113
+    "timestamp": 1749931240682
   },
   "references/eClassifiers/Call/references/eStructuralFeatures/arguments/index.html": {
     "path": "Call/References/arguments",
-    "link-uuid": "83849a75-b873-4299-967d-afb3b031a0c8",
+    "link-uuid": "25784291-0ef6-4e7f-8bdc-32afe4feba7e",
     "title": "arguments",
     "content": "Type EObject Multiplicity 0..* An optional array of method arguments. If elements implement SupplierFactory, then the factory is used to produce argument value. Then arguments get converted to method parameter types if conversion is available. If conversion is not available, an exception is thrown.",
-    "timestamp": 1747875415116
+    "timestamp": 1749931240686
   },
   "references/eSubpackages/content/references/eClassifiers/Interpolator/references/eStructuralFeatures/base/index.html": {
     "path": "Content/Interpolator/Attributes/base",
-    "link-uuid": "b99117eb-15c0-4056-9d2a-8af1162c1c7f",
+    "link-uuid": "b5974bec-603d-4c47-8fff-775275e6ca0b",
     "title": "base",
     "content": "Type EString Multiplicity 0..1 Optional base URL for resolving include and image URL&rsquo;s. If the base is blank then marker location is used as the base, if marker is present and location is not null. Otherwise, resource URL is used as the base. Marker location is the URL of a YAML resource from which interpolator specification was loaded. It may be different from the resource URL if a model was loaded from YAML and then saved to XML. If the base is not blank then it is resolved relative to the marker location if it starts with ./ and marker location is not null or the resource base otherwise.",
-    "timestamp": 1747875415301
+    "timestamp": 1749931240914
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Cancel/index.html": {
     "path": "resources/ReconcileAction/Cancel",
-    "link-uuid": "da1e9aef-5bac-47ff-b9da-995ff798e7e8",
+    "link-uuid": "622f54a6-294b-40b8-93dd-69cb43fc2322",
     "title": "Cancel",
     "content": "Cancels execution if resource already exists.",
-    "timestamp": 1747875415480
+    "timestamp": 1749931241165
   },
   "references/eSubpackages/resources/references/eClassifiers/Resource/index.html": {
     "path": "resources/Resource",
-    "link-uuid": "87e93e06-5917-43f0-a7c4-36d192936952",
+    "link-uuid": "08f510c4-b2ce-4c1f-a2c5-e6f0cf61fcaf",
     "title": "Resource",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415500
+    "timestamp": 1749931241190
   },
   "references/eClassifiers/Fail/inheritance.html": {
     "path": "Fail/Inheritance",
-    "link-uuid": "d0942f63-a58e-463d-b079-fb1c0d107e82",
+    "link-uuid": "b1f92957-1278-4476-b577-6c17a15662cc",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415178
+    "timestamp": 1749931240752
   },
   "references/eClassifiers/Block/index.html": {
-    "link-uuid": "7b76efc1-78ce-4f04-b1bd-29d5fd16c73b",
+    "link-uuid": "36fbe796-1998-4674-bc09-e9b1d4764800",
     "title": "Block",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415087
+    "timestamp": 1749931240654
   },
   "references/eClassifiers/Block/references/eStructuralFeatures/finally/index.html": {
     "path": "Block/References/finally",
-    "link-uuid": "c625b973-c033-4726-a21a-5c9ee18521e6",
+    "link-uuid": "971d2191-2c86-4275-891d-bb61f8906d8b",
     "title": "finally",
     "content": "Type EObject Multiplicity 0..*",
-    "timestamp": 1747875415094
+    "timestamp": 1749931240661
   },
   "references/eClassifiers/Configurator/inheritance.html": {
     "path": "Configurator/Inheritance",
-    "link-uuid": "7a9e4fe3-079f-40a1-a6dd-398ca34e33c9",
+    "link-uuid": "37e0bd54-4686-4437-9aaf-5a6b9e579c1a",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415142
+    "timestamp": 1749931240711
   },
   "references/eSubpackages/resources/references/eClassifiers/File/inheritance.html": {
     "path": "resources/File/Inheritance",
-    "link-uuid": "590a0345-f678-439a-a56d-0ecc238487f5",
+    "link-uuid": "8402b46c-fbf0-4ce8-80b3-5ca65fac2856",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415472
+    "timestamp": 1749931241152
   },
   "references/eSubpackages/resources/references/eClassifiers/Resource/references/eStructuralFeatures/name/index.html": {
     "path": "resources/Resource/Attributes/name",
-    "link-uuid": "d8da41fb-62bd-484c-9221-71ad620a9f4f",
+    "link-uuid": "29e86aae-a065-47d5-9fa8-54f037fe5b73",
     "title": "name",
     "content": "Type EString Multiplicity 1 Resource name. Interpolated.",
-    "timestamp": 1747875415508
+    "timestamp": 1749931241198
   },
   "references/eClassifiers/Property/references/eStructuralFeatures/value/index.html": {
     "path": "Property/References/value",
-    "link-uuid": "5340ea51-1e24-48b9-a38f-5eb447cb2636",
+    "link-uuid": "c3be46b8-1dec-415f-b855-9b5d2f2b684a",
     "title": "value",
     "content": "Type EObject Multiplicity 1",
-    "timestamp": 1747875415241
+    "timestamp": 1749931240816
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/references/eOperations/getContainer-0/references/eParameters/path/index.html": {
     "path": "resources/Container/Operations/getContainer/Parameters/path",
-    "link-uuid": "deb1ac0a-9cf3-4752-af62-8bf46bc7341b",
+    "link-uuid": "0cc3ef78-8169-43ef-a360-510dfd313530",
     "title": "path",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1747875415456
+    "timestamp": 1749931241130
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Rename/index.html": {
     "path": "resources/ReconcileAction/Rename",
-    "link-uuid": "dfe8287c-ec65-498c-aca0-c7eb20c0ba91",
+    "link-uuid": "4585fd42-5a60-4b2f-a68d-df30a97c218b",
     "title": "Rename",
     "content": "Renames existing resource. For containers the same as Append.",
-    "timestamp": 1747875415487
+    "timestamp": 1749931241176
   },
   "references/eClassifiers/Configurator/references/eStructuralFeatures/properties/index.html": {
     "path": "Configurator/References/properties",
-    "link-uuid": "a7f1e356-ed06-4237-95f7-1058b2009df9",
+    "link-uuid": "b86bab75-46e2-4f65-a3a6-2ce2fb6b8aaf",
     "title": "properties",
     "content": "Type Property Multiplicity 0..* A map injected into the instance in the class case if the instance implements java.util.function.BiConsumer or in the service or property case if they implement SupplierFactory. If elements implement SupplierFactory then the supplier factory is used to produce value to be injected. Otherwise elements are injected AS-IS.",
-    "timestamp": 1747875415145
+    "timestamp": 1749931240715
   },
   "references/eSubpackages/content/references/eClassifiers/Filter/inheritance.html": {
     "path": "Content/Filter/Inheritance",
-    "link-uuid": "53aaca24-f401-4ec3-9e98-f12e862f898a",
+    "link-uuid": "c53e2398-afc6-45ee-a442-1a6032189cb0",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875415283
+    "timestamp": 1749931240887
   },
   "references/eSubpackages/content/references/eClassifiers/Interpolator/references/eStructuralFeatures/processIncludes/index.html": {
     "path": "Content/Interpolator/Attributes/processIncludes",
-    "link-uuid": "d13cf0b3-ec39-41c9-817a-664517e89cc9",
+    "link-uuid": "92b49c34-b9cf-4f63-af18-8e264f9b23e5",
     "title": "processIncludes",
     "content": "Type EBoolean Multiplicity 0..1 Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415302
+    "timestamp": 1749931240915
   },
   "index.html": {
-    "link-uuid": "6bb46209-f74e-4772-a463-b14463237394",
+    "link-uuid": "5fc24379-65b8-48fb-8de9-5f7ba4f94f1a",
     "title": "exec",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415075
+    "timestamp": 1749931240642
   },
   "references/eClassifiers/Call/references/eStructuralFeatures/type/index.html": {
     "path": "Call/Attributes/type",
-    "link-uuid": "160763f5-d248-4e41-8f21-98c4f00a163c",
+    "link-uuid": "4c2823a6-4dff-44a1-8f4c-8ffebf2ab37a",
     "title": "type",
     "content": "Type EString Multiplicity 0..1 Fully qualified class name. Mutually exclusive with service and property. One of class, property, or service is required. For SupplierFactory adapter, if the class implements SupplierFactory then it is instantiated and then its create() method is invoked to create a supplier. If the class implements Supplier, then it is instantiated. If there are no init arguments, then the supplier is diagnosed as part of diagnose(). Otherwise it is diagnosed in execute() and diagnostic results are discarded. Similar processing will be implemented for Consumer and Command.",
-    "timestamp": 1747875415127
+    "timestamp": 1749931240695
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/references/eOperations/getFile-1/index.html": {
     "path": "resources/Container/Operations/getFile",
-    "link-uuid": "b54e71be-01c6-4d52-8837-9669c5d5195b",
+    "link-uuid": "dc9600d6-5a49-494d-b629-85ecfa6eabca",
     "title": "getFile",
     "content": "Type File Multiplicity 0..1",
-    "timestamp": 1747875415458
+    "timestamp": 1749931241133
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Overwrite/index.html": {
     "path": "resources/ReconcileAction/Overwrite",
-    "link-uuid": "33b6c395-42b7-4d92-8461-56425275bbf8",
+    "link-uuid": "f9154394-1312-4a31-9e5f-8dfed31db107",
     "title": "Overwrite",
     "content": "Overwrites existing resource. For containers - deletes their contents.",
-    "timestamp": 1747875415486
+    "timestamp": 1749931241174
   },
   "references/eSubpackages/content/references/eClassifiers/Interpolator/index.html": {
     "path": "Content/Interpolator",
-    "link-uuid": "3f26de6e-400c-44e6-a519-305f0faad811",
+    "link-uuid": "6d38e219-d715-4290-be56-98c120af7508",
     "title": "Interpolator",
     "content": "Converts input stream to String using the context charset, which defaults to UTF-8, interpolates, and converts back to input stream using the context charset.",
-    "timestamp": 1747875415296
+    "timestamp": 1749931240909
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Keep/index.html": {
     "path": "resources/ReconcileAction/Keep",
-    "link-uuid": "10981c57-2c3a-4ad9-8d6f-f27a1b015e92",
+    "link-uuid": "8c229ad8-663e-48d9-97d8-218e512042d9",
     "title": "Keep",
     "content": "Keeps the existing resource intact.",
-    "timestamp": 1747875415483
+    "timestamp": 1749931241170
   },
   "references/eClassifiers/Block/references/eStructuralFeatures/try/index.html": {
     "path": "Block/References/try",
-    "link-uuid": "8397b554-afad-423b-af47-11f7c7a59668",
+    "link-uuid": "f91f7d8d-63e6-4ae2-8dcf-0542fbfad0ff",
     "title": "try",
     "content": "Type EObject Multiplicity 1..*",
-    "timestamp": 1747875415095
+    "timestamp": 1749931240662
   },
   "references/eSubpackages/content/references/eClassifiers/Interpolator/load-specification.html": {
     "path": "Content/Interpolator/Load specification",
-    "link-uuid": "ebb396ba-696c-4ecd-b5dd-baf8972bc00e",
+    "link-uuid": "202fab74-6ee6-4591-b8a7-2f879c12cdcd",
     "title": "Load specification",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415299
+    "timestamp": 1749931240912
   },
   "references/eSubpackages/content/references/eClassifiers/Markdown/references/eStructuralFeatures/style/index.html": {
     "path": "Content/Markdown/Attributes/style",
-    "link-uuid": "a44b6103-dbfa-45ea-ab3b-75c7fb8bd251",
+    "link-uuid": "db4eff86-fa8b-4169-91d9-55894b6a6d5c",
     "title": "style",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1747875415376
+    "timestamp": 1749931241019
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Merge/index.html": {
     "path": "resources/ReconcileAction/Merge",
-    "link-uuid": "04d10a1c-0804-4f5d-ad38-b7e814046395",
+    "link-uuid": "692e4ef2-77ce-40c7-86a7-b93e4d488515",
     "title": "Merge",
     "content": "Merges old and new content of a file using a built-in or provided org.nasdanika.common.resources.Merger. Merger is obtained from merger reference. For containers Merge is the same as Append.",
-    "timestamp": 1747875415484
+    "timestamp": 1749931241172
   },
   "references/eSubpackages/content/references/eClassifiers/Resource/inheritance.html": {
     "path": "Content/Resource/Inheritance",
-    "link-uuid": "da23a147-c05e-43fe-851c-a1a40153160b",
+    "link-uuid": "56632e4d-3bd0-4554-b833-19184f3fab12",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415388
+    "timestamp": 1749931241038
   },
   "references/eClassifiers/List/inheritance.html": {
     "path": "List/Inheritance",
-    "link-uuid": "e164feff-eacf-4fc1-a411-9005b309a0d7",
+    "link-uuid": "d66f93d2-5297-4883-b868-70d3886bba41",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415204
+    "timestamp": 1749931240774
   },
   "references/eClassifiers/List/references/eStructuralFeatures/elements/index.html": {
     "path": "List/References/elements",
-    "link-uuid": "851774eb-dbca-479d-9614-f99be0c0ee8a",
+    "link-uuid": "6c9d61fc-cdbd-4fc1-b5f1-99d2f5ff09ce",
     "title": "elements",
     "content": "Type EObject Multiplicity 1..*",
-    "timestamp": 1747875415207
+    "timestamp": 1749931240778
   },
   "references/eClassifiers/Call/references/eStructuralFeatures/init/index.html": {
     "path": "Call/References/init",
-    "link-uuid": "aaedf08a-942f-4141-b68e-d72b1885a675",
+    "link-uuid": "a05f5490-999d-4207-be8f-b735fda585a5",
     "title": "init",
     "content": "Type EObject Multiplicity 0..* An optional array of constructor arguments for the class. Not applicable for property and service. If elements implement SupplierFactory then the factory is used to produce argument values. Then arguments get converted to constructor parameter types if conversion is available. If conversion is not available, an exception is thrown.",
-    "timestamp": 1747875415118
+    "timestamp": 1749931240687
   },
   "references/eSubpackages/content/references/eClassifiers/Text/references/eStructuralFeatures/interpolate/index.html": {
     "path": "Content/Text/Attributes/interpolate",
-    "link-uuid": "53f40162-f275-4cac-92b4-7b358aafd98c",
+    "link-uuid": "1393c4dd-6f2e-460e-b615-71625f265f9e",
     "title": "interpolate",
     "content": "Type EBoolean Multiplicity 0..1 If true (default), content is interpolated.",
-    "timestamp": 1747875415411
+    "timestamp": 1749931241073
   },
   "references/eClassifiers/Configurator/index.html": {
-    "link-uuid": "d1a84d39-6539-48a5-9071-dfe21ed7acb1",
+    "link-uuid": "9f004ffa-b4e2-45cc-bd20-fe1c3d6d9a4c",
     "title": "Configurator",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415140
+    "timestamp": 1749931240710
   },
   "references/eSubpackages/content/references/eClassifiers/Interpolator/inheritance.html": {
     "path": "Content/Interpolator/Inheritance",
-    "link-uuid": "c95615e3-55c9-48f5-84b8-1749c72a1b4b",
+    "link-uuid": "96321ee5-9105-4340-8e3a-0581ec84585c",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415298
+    "timestamp": 1749931240911
   },
   "references/eSubpackages/resources/references/eClassifiers/File/index.html": {
     "path": "resources/File",
-    "link-uuid": "87f55f94-fd19-4e64-80c6-b15f2effa791",
+    "link-uuid": "dacd82f9-ab11-464d-8b55-12adbbff8438",
     "title": "File",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415471
+    "timestamp": 1749931241151
   },
   "references/eSubpackages/resources/references/eClassifiers/Resource/inheritance.html": {
     "path": "resources/Resource/Inheritance",
-    "link-uuid": "d15b9819-763c-4507-b896-f9e37e5c8b3d",
+    "link-uuid": "62db10a1-3f15-4e07-afec-dfb5dbae7a18",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1747875415502
+    "timestamp": 1749931241191
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/inheritance.html": {
     "path": "resources/Container/Inheritance",
-    "link-uuid": "476c00ff-8b26-45b8-a0f8-60b0d67bcdac",
+    "link-uuid": "477be226-f855-46a8-82ef-26cfe28ec639",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415441
+    "timestamp": 1749931241115
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Append/index.html": {
     "path": "resources/ReconcileAction/Append",
-    "link-uuid": "f9cffdae-8917-4968-b153-35e6bf4f665b",
+    "link-uuid": "18c5412b-39a6-4e06-89dc-05832117c577",
     "title": "Append",
     "content": "Appends new content to the existing content. For containers it means that new resources will be placed in the container next to the existing resources. For files it means that the new content will be appended after the existing content.",
-    "timestamp": 1747875415479
+    "timestamp": 1749931241163
   },
   "references/eClassifiers/List/index.html": {
-    "link-uuid": "15efe5ea-ae3f-4bdf-9299-197fa9fb67c8",
+    "link-uuid": "b3765c9c-89fc-4efe-a89b-1b1e7157d1d9",
     "title": "List",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415203
+    "timestamp": 1749931240771
   },
   "references/eClassifiers/Eval/references/eStructuralFeatures/bindings/index.html": {
     "path": "Eval/References/bindings",
-    "link-uuid": "6cb12ddd-fef1-4b81-ad91-14012fab8eaa",
+    "link-uuid": "8332d969-bd2d-44e7-80c0-319a504729d4",
     "title": "bindings",
     "content": "Type Property Multiplicity 0..* Script bindings. Context is available as context binding and progress monitor as progressMonitor binding.",
-    "timestamp": 1747875415164
+    "timestamp": 1749931240737
   },
   "references/eClassifiers/Map/index.html": {
-    "link-uuid": "f8026a44-337d-48fb-bf77-44c3a51b36f2",
+    "link-uuid": "2de53b08-cc1a-4911-b03a-1d785ac8f028",
     "title": "Map",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415218
+    "timestamp": 1749931240790
   },
   "references/eSubpackages/content/references/eClassifiers/Resource/references/eStructuralFeatures/location/index.html": {
     "path": "Content/Resource/Attributes/location",
-    "link-uuid": "c582254b-6dfc-420e-92b0-ac395acfea93",
+    "link-uuid": "081ee7e5-16be-4e16-9e55-3941e13e369e",
     "title": "location",
     "content": "Type EString Multiplicity 1 Resource location resolved relative to the model resource location.",
-    "timestamp": 1747875415394
+    "timestamp": 1749931241047
   },
   "references/eClassifiers/Call/references/eStructuralFeatures/method/index.html": {
     "path": "Call/Attributes/method",
-    "link-uuid": "0d034655-8773-48f1-89ed-1a28c83ff06c",
+    "link-uuid": "6d387309-69ec-4de4-b61e-dbb699caf0d0",
     "title": "method",
     "content": "Type EString Multiplicity 0..1 An optional method to call. In the class case the method can be static. If the method is static the class is not instantiated and if init or properties are present it results in an exception.",
-    "timestamp": 1747875415119
+    "timestamp": 1749931240688
   },
   "references/eSubpackages/content/references/eClassifiers/Markdown/index.html": {
     "path": "Content/Markdown",
-    "link-uuid": "14c77d12-1236-4d29-ad0b-4080d81f4a8f",
+    "link-uuid": "3d0fe05e-6b74-4cfc-b7f8-b283deb74e06",
     "title": "Markdown",
     "content": "Markdown is a filter which renders Markdown to HTML. It optionally styles it by enclosing into a &lt;div class=&quot;markdown-body&quot;&gt; recognized by github-markdown-css. The filter also processes markdown which allows to embed diagrams using fenced code blocks. Markdown source can be defined in the YAML definition or loaded from an external resource. Inline Markdown Single line Multi-line Markdown loaded from resource Embedded images PNG resource JPEG resource PNG JPEG Embedded diagrams Draw.io PlantUML Loading from a resource Inline UML Sequence Component Wireframe Gantt Mind Map WBS Mermaid Loading from a resource Extensions Inline Markdown Single line content-markdown:\n  style: true\n  source:\n    content-text: Hello, *World*!\n Multi-line content-markdown:\n  style: true\n  source:\n    content-text: |+2\n      Hello, ``Universe``!\n Markdown loaded from resource content-markdown:\n  style: true\n  source:\n    content-resource: features/execution-model.md  \n Embedded images Markdown filter allows to embed PNG and JPEG using fenced blocks. PNG resource ```png-resource\nnasdanika-logo.png\n```\n Resource location is resolved relative to the model resource containing filter definition. If the filter model element has a marker, e.g. it was loaded from YAML, then the resource location is resolved to the location of that YAML file even if the model was saved to, say, XML after that. JPEG resource ```jpeg-resource\nmy.jpeg\n```\n PNG ```png\nBase 64 encoded png \n```\n JPEG ```jpeg\nBase 64 encoded jpeg\n```\n Embedded diagrams Markdown filter allows to embed PlantUML, Draw.io, and Mermaid diagrams using fenced blocks. Draw.io diagrams can be edited in a desktop editor or Online editor. Draw.io ```drawio-resource\naws.drawio\n```\n Resource location is resolved in the same way as for image files as explained above. PlantUML PlantUML diagrams can be defined inline or loaded from resources. Loading from a resource ```uml-resource\nsequence.plantuml\n```\n In the above snippet uml is a dialect supported by PlantUML (see below) and sequence.plantuml is a resource containing a diagram definition without @startuml and @enduml. Resource location is resolved in the same as for image files as explained above. hide footbox Alice -&gt; Bob: Authentication Request Bob --&gt; Alice: Authentication Response Inline The following language specifications (dialects) are supported: uml - for the following diagram types: Sequence, Use Case, Class, Activity, Component, State, Object, Deployment, Timing, Network. wireframe - for Wireframe diagrams gantt - for Gantt diagrams mindmap - for Mind Maps wbs - for Work Breakdown Structures UML Sequence Fenced block: ```uml\nAlice -&gt; Bob: Authentication Request\nBob --&gt; Alice: Authentication Response\n```\n Diagram: Alice -&gt; Bob: Authentication Request Bob --&gt; Alice: Authentication Response Component Component diagram with links to component pages. Fenced block: ```uml\npackage Core {\n   component Common [[https://docs.nasdanika.org/modules/core/modules/common/index.html]]\n}\n\npackage HTML {\n   component HTML as html [[https://docs.nasdanika.org/modules/html/modules/html/index.html]]\n   [html] ..&gt; [Common]\n}\n```\n Diagram: package Core { component Common [[https://docs.nasdanika.org/modules/core/modules/common/index.html]] } package HTML { component HTML as html [[https://docs.nasdanika.org/modules/html/modules/html/index.html]] [html] ..&gt; [Common] } Wireframe Fenced block: ```wireframe\n{\n  Just plain text\n  [This is my button]\n  ()  Unchecked radio\n  (X) Checked radio\n  []  Unchecked box\n  [X] Checked box\n  &quot;Enter text here   &quot;\n  ^This is a droplist^\n}\n```\n Diagram: { Just plain text [This is my button] () Unchecked radio (X) Checked radio [] Unchecked box [X] Checked box &quot;Enter text here &quot; ^This is a droplist^ } Gantt Fenced block: ```gantt\n[Prototype design] lasts 15 days and links to [[https://docs.nasdanika.org/index.html]]\n[Test prototype] lasts 10 days\n-- All example --\n[Task 1 (1 day)] lasts 1 day\n[T2 (5 days)] lasts 5 days\n[T3 (1 week)] lasts 1 week\n[T4 (1 week and 4 days)] lasts 1 week and 4 days\n[T5 (2 weeks)] lasts 2 weeks\n```\n Diagram: [Prototype design] lasts 15 days and links to [[https://docs.nasdanika.org/index.html]] [Test prototype] lasts 10 days -- All example -- [Task 1 (1 day)] lasts 1 day [T2 (5 days)] lasts 5 days [T3 (1 week)] lasts 1 week [T4 (1 week and 4 days)] lasts 1 week and 4 days [T5 (2 weeks)] lasts 2 weeks Mind Map Fenced block: ```mindmap\n* Debian\n** [[https://ubuntu.com/ Ubuntu]]\n*** Linux Mint\n*** Kubuntu\n*** Lubuntu\n*** KDE Neon\n** LMDE\n** SolydXK\n** SteamOS\n** Raspbian with a very long name\n*** &lt;s&gt;Raspmbc&lt;/s&gt; =&gt; OSMC\n*** &lt;s&gt;Raspyfi&lt;/s&gt; =&gt; Volumio\n```\n Diagram: * Debian ** [[https://ubuntu.com/ Ubuntu]] *** Linux Mint *** Kubuntu *** Lubuntu *** KDE Neon ** LMDE ** SolydXK ** SteamOS ** Raspbian with a very long name *** &lt;s&gt;Raspmbc&lt;/s&gt; =&gt; OSMC *** &lt;s&gt;Raspyfi&lt;/s&gt; =&gt; Volumio WBS WBS elements can have links. This type of diagram can also be used to display organization structure. ```wbs\n* [[https://docs.nasdanika.org/index.html Business Process Modelling WBS]]\n** Launch the project\n*** Complete Stakeholder Research\n*** Initial Implementation Plan\n** Design phase\n*** Model of AsIs Processes Completed\n**** Model of AsIs Processes Completed1\n**** Model of AsIs Processes Completed2\n*** Measure AsIs performance metrics\n*** Identify Quick Wins\n** Complete innovate phase\n```\n Fenced block: Diagram: * [[https://docs.nasdanika.org/index.html Business Process Modelling WBS]] ** Launch the project *** Complete Stakeholder Research *** Initial Implementation Plan ** Design phase *** Model of AsIs Processes Completed **** Model of AsIs Processes Completed1 **** Model of AsIs Processes Completed2 *** Measure AsIs performance metrics *** Identify Quick Wins ** Complete innovate phase Mermaid You can define Mermaid diagrams in mermaid fenced blocks: flowchart LR\n   Alice --&gt; Bob &amp; Chuck --&gt; Deb\n results in this diagram: flowchart LR Alice --&gt; Bob &amp; Chuck --&gt; Deb Loading from a resource It is also possible to load a diagram definition from a resource resolved relative to the model resource: ```mermaid-resource\nsequence.mermaid\n```\n Extensions Table of contents - add [TOC] to the document as explained in the documentation. This extension will create a table of contents from markdown headers. Footnotes Strikethrough: ~~strikethrough~~-&gt; strikethrough Subscript: H~2~O -&gt; H20 Superscript: 2^5^ = 32 -&gt; 25 = 32 Shared Services Account Log Archive Account Security Account AWS Cloud purum Amazon S3 Bucket AWS CodePipeline AWS Organizations AWS Single Sign-on Account Baseline AWS Service Catalog AWS Parameter Store Core OU Account Baseline Amazon VPC Account Baseline Aggregate CloudTrail and Config Logs Account Baseline Security Cross-Account Roles Amazon GuardDuty Amazon SNS Page-1 Page-2",
-    "timestamp": 1747875415371
+    "timestamp": 1749931241010
   },
   "references/eSubpackages/content/references/eClassifiers/Base64/inheritance.html": {
     "path": "Content/Base64/Inheritance",
-    "link-uuid": "8620bcf6-05a6-43db-afdf-b8a0346aa83b",
+    "link-uuid": "a3569f34-b3a5-471f-b779-0d597afbd779",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415266
+    "timestamp": 1749931240859
   },
   "references/eClassifiers/Block/references/eStructuralFeatures/catch/index.html": {
     "path": "Block/References/catch",
-    "link-uuid": "5ebc2f8a-b59f-45ea-ba6e-bb7affa99171",
+    "link-uuid": "6052e521-0bbb-4b24-b064-187d8ce5c3a0",
     "title": "catch",
     "content": "Type EObject Multiplicity 0..*",
-    "timestamp": 1747875415092
+    "timestamp": 1749931240659
   },
   "references/eClassifiers/Call/index.html": {
-    "link-uuid": "b928c982-3ef9-47a3-abd9-2ab30647f5bd",
+    "link-uuid": "bf18bab7-cd9e-42aa-8f47-d04e3448b7d3",
     "title": "Call",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415111
+    "timestamp": 1749931240680
   },
   "references/eSubpackages/content/references/eClassifiers/Text/inheritance.html": {
     "path": "Content/Text/Inheritance",
-    "link-uuid": "b0197df5-5efb-4a5d-91fb-6f7aa3d66e08",
+    "link-uuid": "83628fe4-0707-4f79-b1de-a66d92dd069f",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415406
+    "timestamp": 1749931241064
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/references/eOperations/getContainer-0/index.html": {
     "path": "resources/Container/Operations/getContainer",
-    "link-uuid": "ddde45f2-d8f4-4529-9af1-8015ab91ab74",
+    "link-uuid": "ad8230b1-ea2c-4fdc-bc68-cf3c7b88f16c",
     "title": "getContainer",
     "content": "Type Container Multiplicity 0..1",
-    "timestamp": 1747875415453
+    "timestamp": 1749931241127
   },
   "references/eSubpackages/resources/references/eClassifiers/Resource/references/eStructuralFeatures/reconcileAction/index.html": {
     "path": "resources/Resource/Attributes/reconcileAction",
-    "link-uuid": "f12a3889-45da-4a7f-9a11-aa8574e87493",
+    "link-uuid": "de533621-33b0-4888-b04e-8846034ce17d",
     "title": "reconcileAction",
     "content": "Type ReconcileAction Multiplicity 0..1 Reconcile action - what to do if a resource with the same name already exists. Defalut is Overwrite.",
-    "timestamp": 1747875415509
+    "timestamp": 1749931241200
   },
   "references/eSubpackages/content/references/eClassifiers/Markdown/inheritance.html": {
     "path": "Content/Markdown/Inheritance",
-    "link-uuid": "0bfc42cf-4223-432b-8854-a252fd07fb79",
+    "link-uuid": "66593fe6-ccba-4384-8d99-eb97b1eed8a5",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415373
+    "timestamp": 1749931241014
   },
   "references/eSubpackages/content/references/eClassifiers/Resource/references/eStructuralFeatures/interpolate/index.html": {
     "path": "Content/Resource/Attributes/interpolate",
-    "link-uuid": "285da3c6-5af0-4ac0-8783-417c01e8fc1d",
+    "link-uuid": "72225b83-a35e-4653-8465-a42c8f257597",
     "title": "interpolate",
     "content": "Type EBoolean Multiplicity 0..1 If true, location is interpolated. Default is false.",
-    "timestamp": 1747875415393
+    "timestamp": 1749931241045
   },
   "references/eClassifiers/Property/index.html": {
-    "link-uuid": "cac3329c-f2a9-4f8c-a15b-c9687ae3d94e",
+    "link-uuid": "ffe9b9dd-3501-4377-89de-4519bd039fd1",
     "title": "Property",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415236
+    "timestamp": 1749931240811
   },
   "references/eSubpackages/content/references/eClassifiers/Base64/index.html": {
     "path": "Content/Base64",
-    "link-uuid": "9001ffbb-694f-4071-85cc-abd8b018ddcb",
+    "link-uuid": "98658779-6bce-45a1-ac77-8b2bb6e7166b",
     "title": "Base64",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415265
+    "timestamp": 1749931240858
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/references/eOperations/find-2/index.html": {
     "path": "resources/Container/Operations/find",
-    "link-uuid": "0b834d2e-056b-4ce8-baea-95499620e5d4",
+    "link-uuid": "8e700675-e05a-4bc4-995b-de793de644ac",
     "title": "find",
     "content": "Type Resource Multiplicity 0..1",
-    "timestamp": 1747875415446
+    "timestamp": 1749931241122
   },
   "references/eClassifiers/Call/references/eStructuralFeatures/properties/index.html": {
     "path": "Call/References/properties",
-    "link-uuid": "5e317201-8dd7-4e31-9bfd-a4bbed964d01",
+    "link-uuid": "eb8da079-75b7-475b-87a1-c6c6ce87253f",
     "title": "properties",
     "content": "Type Property Multiplicity 0..* A map injected into the instance in the class case if the instance implements ${javadoc/java.util.function.BiConsumer} or in the service or property case if they implement SupplierFactory. If elements implement SupplierFactory then the supplier factory is used to produce value to be injected. Otherwise elements are injected AS-IS.",
-    "timestamp": 1747875415122
+    "timestamp": 1749931240690
   },
   "references/eSubpackages/content/references/eClassifiers/Text/index.html": {
     "path": "Content/Text",
-    "link-uuid": "2ceb3196-fa21-4f6d-a224-2ec1f86d4dc8",
+    "link-uuid": "4508b098-3012-4f8f-8716-c934cf139086",
     "title": "Text",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415405
+    "timestamp": 1749931241062
   },
   "references/eSubpackages/content/references/eClassifiers/Filter/index.html": {
     "path": "Content/Filter",
-    "link-uuid": "19cf56a8-60c6-4ef0-99dd-7d67a1b96fae",
+    "link-uuid": "b7d5877e-52c1-4673-b80e-7a699afc9d81",
     "title": "Filter",
     "content": "Base class for filters which take an object, adapt to ${javadoc/org.nasdanika.common.SupplierFactory}, obtain a stream and produce another stream from it.",
-    "timestamp": 1747875415281
+    "timestamp": 1749931240881
   },
   "references/eClassifiers/Block/inheritance.html": {
     "path": "Block/Inheritance",
-    "link-uuid": "0dc78163-6bfd-4472-a8e5-8dc3a6ecc2aa",
+    "link-uuid": "a316694b-0fc7-446d-bc31-4d14e55d2433",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415089
+    "timestamp": 1749931240656
   },
   "references/eSubpackages/resources/references/eClassifiers/Resource/references/eStructuralFeatures/merger/index.html": {
     "path": "resources/Resource/References/merger",
-    "link-uuid": "5742e9fe-f5c7-448c-8120-a3c800f87394",
+    "link-uuid": "78cb8d8d-9309-4816-8533-9e93e870752f",
     "title": "merger",
     "content": "Type EObject Multiplicity 0..1 Merger for Merge reconcile action. Adapted to org.nasdanika.common.resources.Merger to execute actual merge.",
-    "timestamp": 1747875415506
+    "timestamp": 1749931241196
   },
   "references/eSubpackages/resources/index.html": {
-    "link-uuid": "6b223d33-0db7-4197-b410-58c129d81f27",
+    "link-uuid": "b8ac1798-17db-4053-8852-849829522734",
     "title": "resources",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415427
+    "timestamp": 1749931241095
   },
   "references/eClassifiers/Property/references/eStructuralFeatures/key/index.html": {
     "path": "Property/Attributes/key",
-    "link-uuid": "0e569f07-f0c8-4007-8eab-15b77dc8b6e1",
+    "link-uuid": "7459da18-c864-4e22-a0a0-74f3fb030cf9",
     "title": "key",
     "content": "Type EString Multiplicity 1",
-    "timestamp": 1747875415240
+    "timestamp": 1749931240814
   },
   "references/eSubpackages/resources/references/eClassifiers/Resource/references/eStructuralFeatures/contents/index.html": {
     "path": "resources/Resource/References/contents",
-    "link-uuid": "9ce1d353-0447-4ae7-a77f-3722fc9345ab",
+    "link-uuid": "de1fb60c-1134-43ff-a29e-c2d592cda33c",
     "title": "contents",
     "content": "Type EObject Multiplicity 0..* Resource contents. File contents elements are adapted to SupplierFactory and produced InputStreams are contcatenated. Container contents elements are adapted to ConsumerFactory and the container is passed to their execute method.",
-    "timestamp": 1747875415505
+    "timestamp": 1749931241195
   },
   "references/eClassifiers/Eval/references/eStructuralFeatures/script/index.html": {
     "path": "Eval/References/script",
-    "link-uuid": "078fb6a9-55b4-40cd-8be2-6c2dbe336cc9",
+    "link-uuid": "ae9c8522-d02d-4772-9650-b7654eb2bf9b",
     "title": "script",
     "content": "Type EObject Multiplicity 1 Script source",
-    "timestamp": 1747875415165
+    "timestamp": 1749931240739
   },
   "references/eClassifiers/Map/inheritance.html": {
     "path": "Map/Inheritance",
-    "link-uuid": "e1a02009-01f4-427a-b36a-2befa8d367f0",
+    "link-uuid": "49236a8d-8f8f-4311-bb5b-08c9ef12a167",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415219
+    "timestamp": 1749931240791
   },
   "references/eClassifiers/Call/references/eStructuralFeatures/service/index.html": {
     "path": "Call/Attributes/service",
-    "link-uuid": "554d823b-d57c-4bee-b400-2560dbadc808",
+    "link-uuid": "e263b1aa-5d71-4915-a411-eb59c6059eb4",
     "title": "service",
     "content": "Type EString Multiplicity 0..1 Fully qualified context service class name. Mutually exclusive with class and property. One of class, property, or service is required.",
-    "timestamp": 1747875415125
+    "timestamp": 1749931240693
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/references/eOperations/find-2/references/eParameters/path/index.html": {
     "path": "resources/Container/Operations/find/Parameters/path",
-    "link-uuid": "e49e7345-9552-42a6-8b1c-f6fa4ded0ae3",
+    "link-uuid": "ac17bccb-1f5b-4696-b879-1667e69d82d5",
     "title": "path",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1747875415452
+    "timestamp": 1749931241126
   },
   "references/eSubpackages/content/references/eClassifiers/Text/references/eStructuralFeatures/content/index.html": {
     "path": "Content/Text/Attributes/content",
-    "link-uuid": "db45ee61-d9f1-454f-a649-97b2dbcbb700",
+    "link-uuid": "64822bc8-14d9-482a-accc-1d64579460dc",
     "title": "content",
     "content": "Type EString Multiplicity 1 Text content.",
-    "timestamp": 1747875415409
+    "timestamp": 1749931241069
   },
   "references/eClassifiers/Configurator/references/eStructuralFeatures/target/index.html": {
     "path": "Configurator/References/target",
-    "link-uuid": "51e93c26-cf58-4ddc-beeb-3033b784b96c",
+    "link-uuid": "ee7c6e43-f73b-48d4-b46f-2e359e5d49ea",
     "title": "target",
     "content": "Type EObject Multiplicity 1 Component to execute with the augmented context.",
-    "timestamp": 1747875415146
+    "timestamp": 1749931240717
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/index.html": {
     "path": "resources/ReconcileAction",
-    "link-uuid": "334b3f09-47df-4e94-ae8a-a5787279ab3b",
+    "link-uuid": "3d4d29fc-0893-4417-9934-2a20a51a1c93",
     "title": "ReconcileAction",
     "content": "Defines an action to take when a resource with the same name already exists.",
-    "timestamp": 1747875415477
+    "timestamp": 1749931241161
   },
   "references/eClassifiers/Eval/inheritance.html": {
     "path": "Eval/Inheritance",
-    "link-uuid": "0ae34090-78fa-4397-8d5d-dfdf32064ff5",
+    "link-uuid": "05996993-4524-4293-a00e-2cd6acba11c1",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1747875415161
+    "timestamp": 1749931240733
   },
   "references/eClassifiers/Fail/references/eStructuralFeatures/message/index.html": {
     "path": "Fail/Attributes/message",
-    "link-uuid": "be032b37-04e9-4bfb-8f50-8d0ac3791751",
+    "link-uuid": "0290c999-72a1-4b91-91c6-ccd97e2cb516",
     "title": "message",
     "content": "Type EString Multiplicity 0..1 Message to output. Interpolated.",
-    "timestamp": 1747875415187
+    "timestamp": 1749931240755
   },
   "references/eSubpackages/content/references/eClassifiers/Filter/references/eStructuralFeatures/source/index.html": {
     "path": "Content/Filter/References/source",
-    "link-uuid": "4526702b-3d94-42dc-8200-5501a1b1e735",
+    "link-uuid": "8408c17f-dee5-446d-94f4-12a1c904b9fd",
     "title": "source",
     "content": "Type EObject Multiplicity 1 Source to be filtered. The source is adapted to ${javadoc/org.nasdanika.common.SupplierFactory}.",
-    "timestamp": 1747875415286
+    "timestamp": 1749931240895
   },
   "references/eSubpackages/content/index.html": {
-    "link-uuid": "691a97c4-de0e-4e1a-9909-6ec293e570c9",
+    "link-uuid": "66c22933-e182-4193-aef5-acd0a562651a",
     "title": "Content",
     "content": "Content classes are adapted to ${javadoc/org.nasdanika.common.SupplierFactory}&lt;java.io.InputStream&gt; to supply content for files, HTTP Call bodies etc. in a form of input streams.",
-    "timestamp": 1747875415256
+    "timestamp": 1749931240836
   },
   "references/eSubpackages/resources/references/eClassifiers/Container/index.html": {
     "path": "resources/Container",
-    "link-uuid": "db4235b0-5c0a-4f43-bced-8405301fbcda",
+    "link-uuid": "1553cfa1-437e-4889-9a36-1a4defd6ddae",
     "title": "Container",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415439
+    "timestamp": 1749931241113
   },
   "references/eSubpackages/resources/references/eClassifiers/ReconcileAction/references/eLiterals/Dedup/index.html": {
     "path": "resources/ReconcileAction/Dedup",
-    "link-uuid": "8c9f087f-dc34-4d32-8e77-819d9568289c",
+    "link-uuid": "42290586-c41d-49c4-b2d8-729ffbe38a8b",
     "title": "Dedup",
     "content": "Keeps the existing resource. Saves a new resource with a different name, e.g. adding a timestamps at the end.",
-    "timestamp": 1747875415481
+    "timestamp": 1749931241168
   },
   "references/eClassifiers/Eval/index.html": {
-    "link-uuid": "14ece775-d869-4ea1-bb67-f1755301e8a5",
+    "link-uuid": "daed51d9-7fbd-4c7f-ad89-d29ca9d3273b",
     "title": "Eval",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415160
+    "timestamp": 1749931240731
   },
   "references/eClassifiers/Fail/index.html": {
-    "link-uuid": "980a3778-ef4c-4aab-8030-2a18ee9d56bd",
+    "link-uuid": "548d2f6f-ca20-48a5-9030-12af30d0846b",
     "title": "Fail",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415176
+    "timestamp": 1749931240751
   },
   "references/eSubpackages/content/references/eClassifiers/Resource/index.html": {
     "path": "Content/Resource",
-    "link-uuid": "65f5e85e-9760-47e5-9ad0-b3b950155b83",
+    "link-uuid": "304a6cf5-440c-482b-bf0c-bd5590694362",
     "title": "Resource",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1747875415387
+    "timestamp": 1749931241036
   },
   "references/eClassifiers/Map/references/eStructuralFeatures/entries/index.html": {
     "path": "Map/References/entries",
-    "link-uuid": "8bbec0e9-40d8-4bd9-91e9-66bd4a3ba053",
+    "link-uuid": "cc26e2cd-9252-4f34-b34f-cfcc980ed4a2",
     "title": "entries",
     "content": "Type Property Multiplicity 0..* Map entries.",
-    "timestamp": 1747875415223
+    "timestamp": 1749931240794
   },
   "references/eSubpackages/content/references/eClassifiers/Resource/references/eStructuralFeatures/errorMessage/index.html": {
     "path": "Content/Resource/Attributes/errorMessage",
-    "link-uuid": "46dc7f28-cc48-46c9-887d-c4847db9ff81",
+    "link-uuid": "500f26ad-a386-462f-a35c-269e413cee8b",
     "title": "errorMessage",
     "content": "Type EString Multiplicity 0..1 If set, the message content is used as resource content if there is an error loading the resource content. The message is interpolated with url and exception tokens.",
-    "timestamp": 1747875415391
+    "timestamp": 1749931241043
   }
 }
