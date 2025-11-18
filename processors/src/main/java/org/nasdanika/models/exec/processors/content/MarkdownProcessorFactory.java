@@ -4,6 +4,7 @@ package org.nasdanika.models.exec.processors.content;
 
 import java.util.function.BiConsumer;
 
+import org.eclipse.emf.ecore.EObject;
 import org.nasdanika.common.Context;
 import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.exec.content.ContentPackage;
@@ -37,7 +38,7 @@ public class MarkdownProcessorFactory /** TODO - extends **/ {
 	)
 	public EClassNodeProcessor createEClassNodeProcessor(
 			NodeProcessorConfig<WidgetFactory, WidgetFactory> config, 
-			java.util.function.Function<ProgressMonitor, Action> prototypeProvider,
+			java.util.function.BiFunction<EObject, ProgressMonitor, Action> prototypeProvider,
 			BiConsumer<Label, ProgressMonitor> labelConfigurator,
 			ProgressMonitor progressMonitor) {		
 		return new EClassNodeProcessor(config, context, prototypeProvider) {

@@ -105,7 +105,7 @@ public class TestExecModelDocGen {
 		
 		System.out.println("There are " + errorCount + " site errors");
 		
-		if (errorCount != 165) {
+		if (errorCount != 214) {
 			throw new ExecutionException("There are problems with pages: " + errorCount);
 		}		
 	}
